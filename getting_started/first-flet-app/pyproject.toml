@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "first-flet-app"
+version = "0.1.0"
+description = ""
+authors = ["starry_tree <starry_tree@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+flet = "^0.23.2"
+pywifi = "^1.1.12"
+comtypes = "^1.4.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
